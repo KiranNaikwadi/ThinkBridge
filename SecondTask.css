@@ -5,11 +5,10 @@
   box-sizing: border-box;
 }
 body {
-  overflow-x: hidden;
   font-family: sans-serif;
 }
 .main {
-  width: 70%;
+  width: 60%;
   min-height: 15vh;
   border: 2px solid black;
   padding: 5%;
@@ -23,20 +22,29 @@ body {
   justify-content: space-between;
   align-items: center;
   flex-wrap: wrap;
-  gap: 10px;
-  margin: 0;
+  margin:0;
 }
 .logo h1 {
   padding-left: 8px;
+  margin-top:100px;
+
+
 }
 .nav ol {
   list-style-type: none;
   gap: 15px;
   padding-right: 210px;
+
 }
 .nav li {
-  cursor: pointer;
   color: rgb(104, 200, 238);
+        margin:0;
+
+}
+.profile img{
+  width:170px;
+  height:170px;
+  border-radius:50%;
 }
 .header {
   padding: 40px;
