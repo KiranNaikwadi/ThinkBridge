@@ -1,0 +1,19 @@
+ul{
+  list-style: circle inside;
+
+}
+li{
+    background:url("sky.jpg")0 50, no-repeat;
+    list-style-type: none;
+    display: inline;
+    padding: 150px;
+    float:left;
+}
+img{
+        display: block;
+        float: left;
+        border: 1px solid black;
+        background: #eaeaed;
+        margin:20px;
+        padding:20px;
+}

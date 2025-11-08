@@ -4,149 +4,166 @@
   border: 0;
   box-sizing: border-box;
 }
+
 body {
   font-family: sans-serif;
+  background-color: #f7f7f7;
+  overflow-x: hidden;
 }
+
 .main {
-  width: 60%;
+  width: 70%;
   min-height: 15vh;
   border: 2px solid black;
-  padding: 5%;
-  margin: 1% auto;
+  padding: 30px;
+  margin: 40px auto;
   display: flex;
   flex-direction: column;
-  background: linear-gradient(to right bottom, #b46767, white);
 }
+
 .navbar {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  flex-wrap: wrap;
-  margin:0;
+  margin-bottom: 10px;
+    background-color: #f1f1f1;
+
 }
+
 .logo h1 {
-  padding-left: 8px;
-  margin-top:100px;
+  margin-left: 10px;
+  font-size: 28px;
+}
 
+.profile img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin-right: 10px;
+  border: 2px solid #555;
+}
+
+.nav {
+  margin-top: 5px;
+  text-align: left;
+    background-color: #f1f1f1;
 
 }
+
 .nav ol {
   list-style-type: none;
-  gap: 15px;
-  padding-right: 210px;
-
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  margin: 10px 0 0 15px;
 }
+
 .nav li {
   color: rgb(104, 200, 238);
-        margin:0;
+  font-size: 15px;
+  line-height: 1.5;
+}
+
+.header {
+  text-align: center;
+  margin-top: 20px;
+  background-color: #f1f1f1;
 
 }
-.profile img{
-  width:170px;
-  height:170px;
-  border-radius:50%;
-}
-.header {
-  padding: 40px;
-  text-align: center;
-  margin: 0;
-  margin-bottom: 0;
-}
+
 .header h1 {
-  margin-bottom: 0;
+  font-size: 26px;
 }
-.vertical {
+
+.vertical, .vertical1 {
   border-top: 1px solid black;
-  width: 114%;
-  margin-top: 0;
-  align-self: center;
-}
-.vertical1 {
-  border-top: 1px solid black;
-  width: 114%;
+  width: 100%;
   margin: 30px 0;
   align-self: center;
 }
+
 .section {
   display: flex;
   justify-content: space-between;
-  align-items: flex-start;
-  gap: 20px;
-  margin-top: 20px;
+  gap: 30px;
+  margin-top: 10px;
+  background-color: #f1f1f1;
 }
-.box,
-.box1 {
+
+.box, .box1 {
   flex: 1;
   text-align: center;
-  padding: 20px;
+  padding: 15px;
 }
-.box h4,
-.box1 h4 {
-  margin-top: 10px;
+
+.box h4, .box1 h4 {
   color: rgb(6, 238, 161);
-  font-family: Arial, Helvetica, sans-serif;
+  margin-bottom: 10px;
 }
-.box ol,
-.box1 ol {
+
+.box ol, .box1 ol {
   list-style-type: none;
   border-top: 2px solid black;
-  margin-top: 15px;
-  padding-top: 15px;
+  padding-top: 10px;
 }
-.box h5,
-.box1 h5 {
-  margin: 10px;
+
+.box h5, .box1 h5 {
   color: rgb(240, 82, 30);
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-}
-.box li,
-.box1 li {
   margin-top: 10px;
-  color: black;
-  font-family: Georgia, 'Times New Roman', Times, serif;
 }
+
+.box li, .box1 li {
+  margin-top: 8px;
+  color: black;
+}
+
 .article {
   display: flex;
   justify-content: space-between;
-  align-items: flex-start;
-  gap: 20px;
-  margin: 0;
+  background-color: #f1f1f1;
+  gap: 30px;
 }
-.box3 {
+
+.box3, .box4 {
   flex: 1;
   text-align: center;
-  padding: 20px;
+  padding: 15px;
 }
-.box4 {
-  flex: 1;
-  text-align: center;
-  padding: 20px;
-}
-.box3 h4,
-.box4 h4 {
-  margin-top: 10px;
+
+.box3 h4, .box4 h4 {
   color: rgb(6, 238, 161);
-  font-family: Arial, Helvetica, sans-serif;
+  margin-bottom: 10px;
 }
-.box3 ol,
-.box4 ol {
+
+.box3 ol, .box4 ol {
   list-style-type: none;
   border-top: 2px solid black;
-  margin-top: 10px;
   padding-top: 10px;
 }
-.box3 li,
-.box4 li {
-  margin-top: 10px;
-  color: black;
-  font-family: Georgia, 'Times New Roman', Times, serif;
-}
-.box3 h5,
-.box4 h5 {
-  margin: 10px;
+
+.box3 h5, .box4 h5 {
   color: rgb(240, 82, 30);
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  margin-top: 10px;
 }
-.box4 h5{
-    margin-top: 10px;
+
+.box3 li, .box4 li {
+  margin-top: 8px;
+  color: black;
 }
+
+footer {
+  text-align: center;
+  padding: 10px;
+  background-color: #f1f1f1;
+  margin-top: 10px;
+}
+
+ a  {
+  text-decoration: none;
+  color:black;
+}
+
+footer a:hover {
+  color: blue;
+}
+
